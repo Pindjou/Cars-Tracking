@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="552.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.vpindjou.Vpsallaumlines.GuiShowTrack">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="600.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="35.0" prefWidth="415.0" text="Mark" textAlignment="CENTER">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="35.0" prefWidth="367.0" text="Model" textAlignment="CENTER">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox layoutX="1.0" layoutY="147.0" prefHeight="100.0" prefWidth="591.0">
+         <children>
+            <VBox prefHeight="100.0" prefWidth="362.0">
+               <children>
+                  <Label alignment="TOP_LEFT" prefHeight="20.0" prefWidth="250.0" text="Loading Port :" textAlignment="CENTER" textFill="#212120ad">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" text="Antwerp" textAlignment="CENTER" textFill="#212120ad" />
+               </children>
+            </VBox>
+            <VBox prefHeight="100.0" prefWidth="352.0">
+               <children>
+                  <Label contentDisplay="CENTER" prefHeight="20.0" prefWidth="222.0" text="Discharging Port :" textAlignment="CENTER" textFill="#212120ad">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label contentDisplay="CENTER" text="Douala" textFill="#212120ad" />
+               </children>
+            </VBox>
+            <VBox prefHeight="100.0" prefWidth="318.0">
+               <children>
+                  <Label contentDisplay="CENTER" prefHeight="20.0" prefWidth="158.0" text="Voyage Number :" textFill="#212120ad">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" text="22SG05" textFill="#212120ad" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox layoutX="4.0" layoutY="200.0" prefHeight="134.0" prefWidth="591.0">
+         <children>
+            <VBox prefHeight="134.0" prefWidth="253.0">
+               <children>
+                  <ImageView fitHeight="98.0" fitWidth="193.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label text="RECEIVED">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label text="28.04.2022" />
+               </children></VBox>
+            <VBox layoutX="10.0" layoutY="10.0" prefHeight="134.0" prefWidth="222.0">
+               <children>
+                  <ImageView fitHeight="98.0" fitWidth="148.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label text="SHIPPED">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label text="28.04.2022" />
+               </children>
+            </VBox>
+            <VBox layoutX="10.0" layoutY="10.0" prefHeight="134.0" prefWidth="224.0">
+               <children>
+                  <ImageView fitHeight="98.0" fitWidth="169.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label text="DELIVERED">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label text="28.04.2022" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <Label layoutX="32.0" layoutY="351.0" prefHeight="35.0" prefWidth="554.0" text="Disclaimer: The information provided herein has to be verified by contacting our office." />
+   </children>
+</AnchorPane>
